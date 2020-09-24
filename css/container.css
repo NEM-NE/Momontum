@@ -1,0 +1,59 @@
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 8em;
+    margin: 0.5em;
+    padding: 10px;
+    color: white;
+}
+
+h4 {
+    font-size: 3em;
+    margin: 0.5em;
+    padding: 10px;
+    color: white;
+}
+
+li {
+    list-style: none;
+    font-size: 3em;
+    color: white;
+}
+
+input[type="text"] {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    padding: 12px 20px;
+    margin: 8px 0; 
+    display: inline-block; 
+    border: none;
+    border-bottom: 3px solid white; 
+    background: transparent;
+    transition: 0.3s ease;
+}
+
+input[type="text"]::placeholder {
+    font-size: 18px;
+    color: white;
+}
+
+input[type="text"]:focus{
+    outline: none;
+    transform: scale(2);
+}
+
+button {
+    display: inline-block;
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+button:active {
+    outline: none;
+}

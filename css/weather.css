@@ -1,0 +1,9 @@
+
+#weather {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+
+    font-size: 1.5em;
+    color: white;
+}
